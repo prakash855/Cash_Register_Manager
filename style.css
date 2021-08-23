@@ -39,4 +39,11 @@ body{
 #footer{
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+}
+#code{
+    width: 1rem;
+    color: black;
+    position: relative;
+    top: 3px;
 }

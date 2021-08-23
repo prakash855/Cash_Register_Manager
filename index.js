@@ -18,9 +18,9 @@ checkButton.addEventListener("click", function validateBillAndAmount() {
   } else if (
     typeof parseInt(billAmount.value) !== Number ||
     typeof parseInt(cashGiven.value) !== Number
-  )
+  ) {
     showMessage("Please enter a valid number");
-  else {
+  } else {
     showMessage("Invalid bill amount");
   }
 });
