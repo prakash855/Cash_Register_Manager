@@ -36,3 +36,7 @@ body{
     outline: none;
     border: 1px solid;
 }
+#footer{
+    display: flex;
+    justify-content: center;
+}
