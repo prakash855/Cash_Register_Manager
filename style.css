@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 50vw;
-  align-items: center;
+  /* align-items: center; */
 }
 #bill-amount,#cash-given{
     outline: none;
@@ -22,6 +22,7 @@ body{
     border-radius: 10px;
     border: 1px solid;
     padding-left: 1rem;
+    margin-bottom: 1rem;
 }
 .change-table{
     color: purple;
