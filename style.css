@@ -47,3 +47,34 @@ body{
     position: relative;
     top: 3px;
 }
+.footer {
+    text-align: center;
+  }
+  .lists {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  .list {
+    /* border: 2px solid lightblue; */
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  .foot{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .intro{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+  }
+  @media (max-width:670px){
+    .intro{
+      display: none;
+    }
+  }
